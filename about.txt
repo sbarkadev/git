@@ -18,3 +18,10 @@
 - account identity : 
 	*git config -- global user.email "my-email"
 	*git config --global user.name "sbarkadev"
+
+- git log :command that gives us access to all our commits in our current branch.
+	- commit id 
+	- when the commit was created 
+	- the commit message
+
+- for each commit we create we have a unique id : this id make it easy to specifically load or check out the commit with that id .
