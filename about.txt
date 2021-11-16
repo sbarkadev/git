@@ -34,3 +34,26 @@
 - git checkout commit_id
 - git log
 - git checkout master  : go back to our commits after a checkout 
+
+- a branch is a unique set of specifique code changes.
+
+- the branch holds  commits
+
+- master branch is the default name of the first branch you create in git project
+
+- if you want to start side project or add additionnal content to your project you might want to create a complete copy of your existing branch , work on that copy and then later implement changes you added to the copy to the original master branch.
+	- create a copy of master branch 
+	- add some additional folders ,files , commits
+	- add this changes to the master branch 
+
+
+- git branch : get an overview of all the branches you have in your current project
+
+- git branch branch_name_without spaces : create a new branch
+
+- git checkout second-branch : to access the second branch : we use the checkout command, we can use it also with commits , but actually checkout is made to switch between branches .
+
+- currently we are in second branch : 
+	-git log : see the same structure that we have in master branch , same ids of commit ...
+
+- git checkout -b third branch : creating a branch and checking it out  using one command 
