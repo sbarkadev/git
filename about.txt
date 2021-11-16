@@ -29,3 +29,8 @@
 - git log : latest commit always in top 
 
 - the cool thing about version management : if we want to go back to our previous commit , we get the id of the commit from git log ; to load a specific commit : git checkout (commit_id)
+
+
+- git checkout commit_id
+- git log
+- git checkout master  : go back to our commits after a checkout 
