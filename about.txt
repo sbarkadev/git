@@ -25,3 +25,7 @@
 	- the commit message
 
 - for each commit we create we have a unique id : this id make it easy to specifically load or check out the commit with that id .
+
+- git log : latest commit always in top 
+
+- the cool thing about version management : if we want to go back to our previous commit , we get the id of the commit from git log ; to load a specific commit : git checkout (commit_id)
