@@ -1,0 +1,20 @@
+- git status : gives you informations about your working directory.
+
+- working directory : is the project folder with all the project files in it.
+
+- to manage our project by git we need in our working directory  : (.git =>hidden folder) repository that contains  the staging Area(Index file) and Commits(objects folder).
+
+- git init :initialise our git repository.
+
+- git status :  shows  that we are in master branch.
+
+- master branch contains all our commits.
+
+- git add file_name : add untracked file showed by git status to our staging area.
+
+- git add . : add all untracked files to the staging area
+
+- git commit -m  : each commit has a specific message.
+- account identity : 
+	*git config -- global user.email "my-email"
+	*git config --global user.name "sbarkadev"
