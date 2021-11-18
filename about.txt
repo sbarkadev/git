@@ -126,3 +126,19 @@ other:			commit1					commit2			commit3		commit4
 	- git add working-with-branches.txt / git rm working-with-branches.txt .
 	- git ls-files : the file is not longer a part of staging area
 	- git commit -m "deleted working-with-branches file"
+
+--------------------------------------------------------
+- git rid of this unstaged file in atracked file (initial-commit.txt)
+	- to undo this change means : go back to the status of the latest commit , so of the head basically in our current branch 
+	- git checkout -- : -- means we don't reffer to any specific branch here (there is no spepcific branch that i want to apply this checkout command tool)
+	just the current branch i'm working on  (so we can use just git checkout )
+	-  git checkout initial-commit.txt : refer to the latest commit of the initial commit file
+
+	- git checkout . 
+
+	- git restore : will do the same as git checkout file_name
+
+- added a new file to the working directory
+	- delete this file (rid of untracked file)
+	- git clean -dn : delete all untracked file (n for list all the entries before deleting them)
+	- git clean -df : force deleting all teh entries
