@@ -57,3 +57,10 @@
 	-git log : see the same structure that we have in master branch , same ids of commit ...
 
 - git checkout -b third branch : creating a branch and checking it out  using one command 
+
+-if we work in a seperate feature in a seperate branch and you finish the feature , you can merge branches.
+
+switch to master branch :
+	-git merge third-branch : add our third commit to our master branch
+
+- git branch
