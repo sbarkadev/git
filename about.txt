@@ -64,3 +64,18 @@ switch to master branch :
 	-git merge third-branch : add our third commit to our master branch
 
 - git branch
+
+- what is the "HEAD" that we saw in different commits in our log = > commit 0c32263f223a9d842c79b433eef8faf428c00d04 (HEAD -> master, origin/third-branch, origin/master, third-branch) 
+	- understand the structure :
+		we have :
+			master branch => commit1 commit2 commit3 commit4 ...
+			whenever we use the checkout command the way attended to be (because also we can checkout commits)
+			; checking out branches . so if we checkout the master branch , the last commit will be the HEAD
+			- by checking out the branch we are reffering to a specific branch  indirectly points to the latest commit in this branch
+			=> it's the default behavior that we have in git 
+			- checking out branch means referring to a specific branch , and in this branch we basically indirectly reffer to the latest command 
+			=>that's how git behaves in the end .
+
+- git branch
+
+- git checkout second-branch
