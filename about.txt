@@ -79,3 +79,21 @@ switch to master branch :
 - git branch
 
 - git checkout second-branch
+
+- the detached HEAD
+
+
+- we can't only check out specific branches , but we can also check out specific commits 
+	each commit in git is identified by unique id
+
+- checking out a branch means we check out the specific branch , refer to our branch and inderictly refer to our latest commit.
+- checking out a commit(that is ib both branches) , reffer to our commit  (not related to a specific branch).
+
+master:			commit1 				commit2			commit3
+											.
+											. Detached HEAD
+											.
+other:			commit1					commit2			commit3		commit4
+
+
+- git checkout id-commit
