@@ -103,6 +103,7 @@ other:			commit1					commit2			commit3		commit4
 
 
 ---------------------------------------------------------
+
 - git switch : -allows you to do : switch branches and create new branches 
 			  - switch  command used for working with branches
 - git checkout : can be used for commits and branches , so it can be a bit confusing (so we use git switch)
@@ -110,3 +111,18 @@ other:			commit1					commit2			commit3		commit4
 - git switch third-branch : switch to our third branch
 
 - git switch -c fourth-branch  : create our fourth-branch
+
+
+--------------------------------------------------------
+
+- you want to delete working-with branches.txt file
+
+- git ls-files : to check which files are part of our staging area 
+
+- with git add you tell git which files should be tracked , or which changes should be tracked
+
+	- remove working-with-branches.txt files from our working directory 
+	- the file is not removing from our staging area (git status)
+	- git add working-with-branches.txt / git rm working-with-branches.txt .
+	- git ls-files : the file is not longer a part of staging area
+	- git commit -m "deleted working-with-branches file"
